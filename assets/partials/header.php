@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <span class="navbar-brand"><img src="assets/image/logo.png" alt=""></span>
 
     <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
