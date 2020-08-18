@@ -37,7 +37,7 @@ class Usuarios
 
     public function fazerLogin($n, $e)
     {
-        $sql = "SELECT * FROM usuarios WHERE nome ='$n' and email = '$e' ";
+        $sql = "SELECT * FROM usuarios WHERE user ='$n' and email = '$e' ";
         $sql = $this->pdo->query($sql);
 
         if ($sql->rowCount() > 0){
